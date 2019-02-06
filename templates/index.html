@@ -1,1029 +1,248 @@
 {% load static %}
+<!DOCTYPE HTML>
 <html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>AVC</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AVC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Website Template by FreeHTML5.co"/>
+    <meta name="keywords"
+          content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive"/>
+    <meta name="author" content="FreeHTML5.co"/>
 
 
-        <link rel="stylesheet" href="{% static '/css/iconfont.css' %}">
-        <link rel="stylesheet" href="{% static '/css/slick/slick.css' %}">
-        <link rel="stylesheet" href="{% static '/css/slick/slick-theme.css' %}">
-        <link rel="stylesheet" href="{% static '/css/stylesheet.css' %}">
-        <link rel="stylesheet" href="{% static '/css/font-awesome.min.css' %}">
-        <link rel="stylesheet" href="{% static '/css/jquery.fancybox.css' %}">
-        <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
-        <link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
-        <link rel="stylesheet" href="{% static '/css/magnific-popup.css' %}">
-        <!--        <link rel="stylesheet" href="{% static '/css/bootstrap-theme.min.css' %}">-->
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
 
+    <!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
 
-        <!--For Plugins external css-->
-        <link rel="stylesheet" href="{% static '/css/plugins.css' %}" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
 
-        <!--Theme custom css -->
-        <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
 
-        <!--Theme Responsive css-->
-        <link rel="stylesheet" href="{% static '/css/responsive.css' %}" />
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
-        <script src="{% static '/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
-    </head>
-    <body data-spy="scroll" data-target=".navbar-collapse">
+    <!-- Modernizr JS -->
+    <script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="{% static 'js/respond.min.js' %}"></script>
+	<![endif]-->
 
-        <div class='preloader'><div class='loaded'>&nbsp;</div></div>
-        <div class="culmn">
-            <header id="main_menu" class="header navbar-fixed-top">
-                <div class="main_menu_bg">
-                    <div class="container">
-                        <div class="row">
-                            <div class="nave_menu">
-                                <nav class="navbar navbar-default">
-                                    <div class="container-fluid">
-                                        <!-- Brand and toggle get grouped for better mobile display -->
-                                        <div class="navbar-header">
-                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                                <span class="sr-only">Toggle navigation</span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                            </button>
-                                            <a class="navbar-brand" href="#home">
-                                                <img src="{% static '/images/logo.png' %}"/>
-                                            </a>
-                                        </div>
+</head>
+<body>
 
-                                        <!-- Collect the nav links, forms, and other content for toggling -->
+<div class="fh5co-loader"></div>
 
+<div id="page">
+    <nav class="fh5co-nav" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2">
+                    <div id="fh5co-logo"><a href="/home/">AVC.</a></div>
+                </div>
+                <div class="col-xs-10 text-right menu-1">
+                    <ul>
+                        <li class="active"><a href="/home/">Home</a></li>
+                        <li><a href="/about/">About</a></li>
+                        <li class="has-dropdown">
+                            <a href="/services/">Services</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">eCommerce</a></li>
+                                <li><a href="#">Branding</a></li>
+                                <li><a href="#">API</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/work/">Work</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
 
+        </div>
+    </nav>
 
-                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <header id="fh5co-header" class="fh5co-cover" role="banner"
+            style="background-image:url({% static 'images/img_bg_1.jpg' %});">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <div class="display-t">
+                        <div class="display-tc animate-box" data-animate-effect="fadeIn">
+                            <h1>Наші клієнти в пріорітеті!</h1>
+                            <h2>Ми завжди раді вашому візиту</h2>
+                            <p><a href="/about/" class="btn btn-default">Про нас</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-                                            <ul class="nav navbar-nav navbar-right">
-                                                <li><a href="#home">HOME</a></li>
-                                                <li><a href="#history">ABOUT US</a></li>
-                                                <li><a href="#portfolio">PORTFOLIO</a></li>
-                                                <li><a href="#pricing">PRICING</a></li>
-                                                <li><a href="#team">TEAM</a></li>
-                                                <li><a href="#blog">BLOG</a></li>
-                                                <li><a href="#contact">CONTACT</a></li>
-                                            </ul>
-
-
-                                        </div>
-
-                                    </div>
-                                </nav>
+    <div class="container">
+        <div class="row">
+            <div id="fh5co-section">
+                <div class="col-nineth">
+                    <div class="row">
+                        <div class="col-third">
+                            <div class="col-md-12">
+								<span class="icon">
+									<i class="icon-eye"></i>
+								</span>
+                                <div class="desc">
+                                    <h3>Retina Ready</h3>
+                                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
+                                        autem provident. Odit ab aliquam dolor eius.</p>
+                                    <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                                </div>
                             </div>
                         </div>
+                        <div class="col-third">
+                            <div class="col-md-12">
+								<span class="icon">
+									<i class="icon-power"></i>
+								</span>
+                                <div class="desc">
+                                    <h3>Web Starter</h3>
+                                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
+                                        autem provident. Odit ab aliquam dolor eius.</p>
+                                    <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-third">
+                            <div class="col-md-12">
+								<span class="icon">
+									<i class="icon-laptop"></i>
+								</span>
+                                <div class="desc">
+                                    <h3>Fully Responsive</h3>
+                                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
+                                        autem provident. Odit ab aliquam dolor eius.</p>
+                                    <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-forth fh5co-video fh5co-bg"
+                     style="background-image: url({% static 'images/image_1.jpg' %})">
+                    <a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i
+                            class="icon-video2"></i></a>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="fh5co-bg-section">
+        <div class="container">
+            <div class="row">
+                <div id="fh5co-features-2">
+                    <div class="col-feature-9">
+                        <div class="row">
+                            <div class="col-md-12 fh5co-heading animate-box">
+                                <h2>Core Features</h2>
+                                <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
+                                    provident. Odit ab aliquam dolor eius.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-7 col-sm-7 col-md-pull-2 col-sm-pull-2 animate-box"
+                                 data-animate-effect="fadeInRight">
+                                <div class="feature-image">
+                                    <img src="{% static 'images/work_1.png' %}" alt="work">
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-sm-5">
+                                <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+									<span class="icon">
+										<i class="icon-check"></i>
+									</span>
+                                    <div class="feature-copy">
+                                        <h3>Retina Ready</h3>
+                                        <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                                            reprehenderit.</p>
+                                    </div>
+                                </div>
+
+                                <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+									<span class="icon">
+										<i class="icon-check"></i>
+									</span>
+                                    <div class="feature-copy">
+                                        <h3>Fully Responsive</h3>
+                                        <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                                            reprehenderit.</p>
+                                    </div>
+                                </div>
+
+                                <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+									<span class="icon">
+										<i class="icon-check"></i>
+									</span>
+                                    <div class="feature-copy">
+                                        <h3>Ready To Use</h3>
+                                        <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                                            reprehenderit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                </div>
-            </header> <!--End of header -->
-
-
-
-
-            <!--home Section -->
-            <section id="home" class="home">
-                <div class="overlay">
-                    <div class="home_skew_border">
-                        <div class="container">
+                    <div class="col-feature-3">
+                        <div id="fh5co-counter" class="fh5co-bg fh5co-counter">
                             <div class="row">
-                                <div class="col-sm-12 ">
-                                    <div class="main_home_slider text-center">
-                                        <div class="single_home_slider">
-                                            <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                                <h3>Наші клієнти завжди в пріорітеті</h3>
-                                                <h1>WELCOME TO AVC</h1>
-                                                <div class="separator"></div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                                    standard dummy text ever since the 1500s, when an unknown printer took a galley
-                                                    of type and scrambled it to make a type specimen book.</p>
-                                                <div class="home_btn">
-                                                    <a href="" class="btn btn-lg m_t_10">GET STARTED NOW</a>
-                                                    <a href="" class="btn btn-default">LEARN MORE</a>
-                                                </div>
+                                <div class="display-t">
+                                    <div class="display-tc">
+                                        <div class="col-md-12 animate-box">
+                                            <div class="feature-center">
+                                                <span class="counter js-counter" data-from="0" data-to="2200"
+                                                      data-speed="5000" data-refresh-interval="50">1</span>
+                                                <span class="counter-label">Creativity Fuel</span>
 
                                             </div>
                                         </div>
-                                        <div class="single_home_slider">
-                                            <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                                <h3>Наші клієнти завжди в пріорітеті</h3>
-                                                <h1>WELCOME TO AVC</h1>
-                                                <div class="separator"></div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                                    standard dummy text ever since the 1500s, when an unknown printer took a galley
-                                                    of type and scrambled it to make a type specimen book.</p>
-                                                <div class="home_btn">
-                                                    <a href="" class="btn btn-lg m_t_10">GET STARTED NOW</a>
-                                                    <a href="" class="btn btn-default">LEARN MORE</a>
-                                                </div>
-
+                                        <div class="col-md-12 animate-box">
+                                            <div class="feature-center">
+                                                <span class="counter js-counter" data-from="0" data-to="97"
+                                                      data-speed="5000" data-refresh-interval="50">1</span>
+                                                <span class="counter-label">Happy Clients</span>
                                             </div>
                                         </div>
-                                        <div class="single_home_slider">
-                                            <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                                <h3>Наші клієнти завжди в пріорітеті</h3>
-                                                <h1>WELCOME TO AVC</h1>
-                                                <div class="separator"></div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                                    standard dummy text ever since the 1500s, when an unknown printer took a galley
-                                                    of type and scrambled it to make a type specimen book.</p>
-                                                <div class="home_btn">
-                                                    <a href="" class="btn btn-lg m_t_10">GET STARTED NOW</a>
-                                                    <a href="" class="btn btn-default">LEARN MORE</a>
-                                                </div>
-
+                                        <div class="col-md-12 animate-box">
+                                            <div class="feature-center">
+                                                <span class="counter js-counter" data-from="0" data-to="402"
+                                                      data-speed="5000" data-refresh-interval="50">1</span>
+                                                <span class="counter-label">Projects Done</span>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="scrooldown">
-                            <a href="#feature"><i class="fa fa-arrow-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </section><!--End of home section -->
-
-
-            <!--feature section -->
-            <section id="feature" class="feature sections">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_feature text-center">
-
-                            <div class="col-sm-3">
-                                <div class="single_feature">
-                                    <div class="single_feature_icon">
-                                        <i class="fa fa-clone"></i>
-                                    </div>
-
-                                    <h4>Оформлення візи</h4>
-                                    <div class="separator3"></div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting let.
-                                        Lorem Ipsum has been the industry.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <div class="single_feature">
-                                    <div class="single_feature_icon">
-                                        <i class="fa fa-heart-o"></i>
-                                    </div>
-
-                                    <h4>ВІзова підтримка</h4>
-                                    <div class="separator3"></div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting let.
-                                        Lorem Ipsum has been the industry.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <div class="single_feature">
-                                    <div class="single_feature_icon">
-                                        <i class="fa fa-lightbulb-o"></i>
-                                    </div>
-                                    <h4>CREATIVE IDEAS</h4>
-                                    <div class="separator3"></div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting let.
-                                        Lorem Ipsum has been the industry.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <div class="single_feature">
-                                    <div class="single_feature_icon">
-                                        <i class="fa fa-comments-o"></i>
-                                    </div>
-
-                                    <h4>FREE SUPPORT</h4>
-                                    <div class="separator3"></div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting let.
-                                        Lorem Ipsum has been the industry.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div><!--End of container -->
-            </section><!--End of feature Section -->
-            <hr />
-
-
-            <!-- History section -->
-            <section id="history" class="history sections">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_history">
-                            <div class="col-sm-6">
-                                <div class="single_history_img">
-                                    <img src="{% static '/images/stab1.png' %}" alt="" />
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div class="single_history_content">
-                                    <div class="head_title">
-                                        <h2>OUR HISTORY</h2>
-                                    </div>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                                        distribution of letters, as opposed to using 'Content here, content here', making it
-                                        look like readable English. Many desktop publishing packages and web page editors now use
-                                        Lorem Ipsum as their default model text, and a search for 'lorem ipsum' </p>
-
-                                    <a href="" class="btn btn-lg">BROWSE OUR WORK</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--End of row -->
-                </div><!--End of container -->
-            </section><!--End of history -->
-
-
-            <!-- service Section -->
-            <section id="service" class="service">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="main_service">
-                            <div class="col-md-6 col-sm-12 no-padding">
-
-                                <div class="single_service single_service_text text-right">
-                                    <div class="head_title">
-                                        <h2>OUR SERVICES</h2>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
-                                            <div class="row">
-
-                                                <div class="col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1">
-                                                    <article class="single_service_right_text">
-                                                        <h4>WEB DESIGN</h4>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                                            Lorem Ip sum has been the industry's standard dummy text ever.</p>
-                                                    </article>
-                                                </div>
-                                                <div class="col-sm-1 col-xs-1">
-                                                    <figure class="single_service_icon">
-                                                        <i class="fa fa-heart"></i>
-                                                    </figure><!-- End of figure -->
-                                                </div>
-                                            </div>
-                                        </div><!-- End of col-sm-12 -->
-
-                                        <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
-                                            <div class="row">
-
-                                                <div class="col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1">
-                                                    <article class="single_service_right_text">
-                                                        <h4>PRINT DESIGN</h4>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                                            Lorem Ip sum has been the industry's standard dummy text ever.</p>
-                                                    </article>
-                                                </div>
-                                                <div class="col-sm-1 col-xs-1">
-                                                    <figure class="single_service_icon">
-                                                        <i class="fa fa-heart"></i>
-                                                    </figure><!-- End of figure -->
-                                                </div>
-                                            </div>
-                                        </div><!-- End of col-sm-12 -->
-
-                                        <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
-                                            <div class="row">
-
-                                                <div class="col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 margin-bottom-20">
-                                                    <article class="single_service_right_text">
-                                                        <h4>PHOTOGRAPHY</h4>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                                            Lorem Ip sum has been the industry's standard dummy text ever.</p>
-                                                    </article>
-                                                </div>
-                                                <div class="col-sm-1 col-xs-1">
-                                                    <figure class="single_service_icon">
-                                                        <i class="fa fa-heart"></i>
-                                                    </figure><!-- End of figure -->
-                                                </div>
-                                            </div>
-                                        </div><!-- End of col-sm-12 -->
-
-                                    </div>
-                                </div>
-                            </div><!-- End of col-sm-6 -->
-
-                            <div class="col-md-6 col-sm-12 no-padding">
-                                <figure class="single_service single_service_img">
-                                    <div class="overlay-img"></div>
-                                    <img src="{% static '/images/servicerightimg.jpg' %}" alt="" />
-                                </figure><!-- End of figure -->
-                            </div><!-- End of col-sm-6 -->
-
-                        </div>
-                    </div><!-- End of row -->
-                </div><!-- End of Container-fluid -->
-            </section><!-- End of service Section -->
-
-
-            <section id="portfolio" class="portfolio sections">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="main_portfolio">
-                            <div class="col-sm-12">
-                                <div class="head_title text-center">
-                                    <h2>RECENT WORKS</h2>
-                                    <div class="subtitle">
-                                        It has survived not only five centuries, but also the leap scrambled it to make a type.
-                                    </div>
-                                    <div class="separator"></div>
-                                </div>
-                            </div>
-                            <div class="work_menu text-center">
-                                <div id="filters" class="toolbar mb2 mt2">
-                                    <button class="btn-md fil-cat filter active" data-filter="all">ALL</button>/
-                                    <button class="btn-md fil-cat filter" data-rel="web" data-filter=".web">WEB DESIGN</button>/
-                                    <button class="btn-md fil-cat filter" data-rel="design" data-filter=".design">PRINT DESIGN</button>/
-                                    <button class="btn-md fil-cat filter" data-rel="flyers" data-filter=".flyers">ANIMATION</button>/
-                                    <button class="btn-md fil-cat filter" data-rel="bcards" data-filter=".bcards">ART</button>/
-                                    <button class="btn-md fil-cat filter" data-rel="photo" data-filter=".photo">PHOTOGRAPHY</button>/
-                                    <button class="btn-md fil-cat filter" data-rel="video" data-filter=".video">VIDEO</button>
-                                </div>
-
-                            </div>
-
-                            <div style="clear:both;"></div>
-                            <div id="portfoliowork">
-                                <div class="single_portfolio tile scale-anm web grid-item-width2 video" >
-                                    <img src="{% static '/images/pf1.jpg' %}" alt="" />
-                                    <a href="{% static '/images/pf1.jpg' %}" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"></div>
-                                            <h3>T-SHIRT DESIGN</h3>
-                                            <p>art / t-shirt</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="single_portfolio tile scale-anm bcards photo" >
-                                    <img src="{% static '/images/pf2.jpg' %}" alt="" />
-                                    <a href="{% static '/images/pf2.jpg' %}" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"></div>
-                                            <h3>T-SHIRT DESIGN</h3>
-                                            <p>art / t-shirt</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="single_portfolio tile scale-anm web video">
-                                    <img src="{% static '/images/pf3.jpg' %}" alt="" />
-                                    <a href="{% static '/images/pf3.jpg' %}" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"></div>
-                                            <h3>T-SHIRT DESIGN</h3>
-                                            <p>art / t-shirt</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="single_portfolio tile scale-anm web photo" >
-                                    <img src="{% static '/images/pf4.jpg' %}" alt="" />
-                                    <a href="{% static '/images/pf4.jpg' %}" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"></div>
-                                            <h3>T-SHIRT DESIGN</h3>
-                                            <p>art / t-shirt</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="single_portfolio tile scale-anm bcards design" >
-                                    <img src="{% static '/images/pf5.jpg' %}" alt="" />
-                                    <a href="{% static '/images/pf5.jpg' %}" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"></div>
-                                            <h3>T-SHIRT DESIGN</h3>
-                                            <p>art / t-shirt</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="single_portfolio tile scale-anm flyers video design">
-                                    <img src="{% static '/images/pf6.jpg' %}" alt="" />
-                                    <a href="{% static '/images/pf6.jpg' %}" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"></div>
-                                            <h3>T-SHIRT DESIGN</h3>
-                                            <p>art / t-shirt</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="single_portfolio tile scale-anm photo flyers">
-                                    <img src="{% static '/images/pf7.jpg' %}" alt="" />
-                                    <a href="{% static '/images/pf7.jpg' %}" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"></div>
-                                            <h3>T-SHIRT DESIGN</h3>
-                                            <p>art / t-shirt</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="single_portfolio tile scale-anm bcards video" >
-                                    <img src="{% static '/images/pf8.jpg' %}" alt="" />
-                                    <a href="{% static '/images/pf8.jpg' %}" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"></div>
-                                            <h3>T-SHIRT DESIGN</h3>
-                                            <p>art / t-shirt</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-
-                            <div style="clear:both;"></div>
-                        </div>
-                    </div>
-                </div><!-- End off container -->
-            </section> <!-- End off Work Section -->
-
-
-
-            <!-- Study Section -->
-            <section id="study" class="study text-center wow fadeIn"  data-wow-duration="2s" data-wow-dealy="1.5s">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_study_area sections">
-                            <div class="head_title text-center">
-                                <h2>CASE STUDY</h2>
-                                <div class="subtitle">
-                                    A brief story about how this process works, keep an eye till the end.
-                                </div>
-                                <div class="separator"></div>
-                            </div>
-                            <div class="single_study_content">
-                                <div class="col-sm-6">
-                                    <div class="single_study_slid_area">
-
-                                        <div class="single_study_text">
-                                            <div class="study_slider">
-                                                <div class="item">
-                                                    <div class="s_study_icon">
-                                                        <i class="fa fa-lightbulb-o"></i>
-                                                    </div>
-                                                    <h4>aCCUMULATE CREATIVE IDEAS</h4>
-                                                    <div class="separator3"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting let.
-                                                        Lorem Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.</p>
-
-                                                    <a href="" class="btn btn-lg">read more</a>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="s_study_icon">
-                                                        <i class="fa fa-lightbulb-o"></i>
-                                                    </div>
-                                                    <h4>aCCUMULATE CREATIVE IDEAS</h4>
-                                                    <div class="separator3"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting let.
-                                                        Lorem Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.</p>
-
-                                                    <a href="" class="btn btn-lg">read more</a>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="s_study_icon">
-                                                        <i class="fa fa-lightbulb-o"></i>
-                                                    </div>
-                                                    <h4>aCCUMULATE CREATIVE IDEAS</h4>
-                                                    <div class="separator3"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting let.
-                                                        Lorem Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.</p>
-
-                                                    <a href="" class="btn btn-lg">read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="single_study_right_img">
-                                    <div class="col-sm-6">
-                                        <div class="single_study_img">
-                                            <img src="{% static '/images/study.jpg' %}" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- End off row -->
-                </div><!-- End off Container -->
-            </section><!-- End off Study Section -->
-
-
-            <!-- Counter Section -->
-            <section id="counter" class="counter">
-                <div class="video_overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="main_counter_area text-center">
-
-                                    <div class="row">
-                                        <div class="single_counter border_right">
-                                            <div class="col-sm-3 col-xs-12">
-                                                <div class="single_counter_item">
-                                                    <i class="icon icon-thumbs-up"></i>
-                                                    <h2 class="statistic-counter">3891</h2>
-                                                    <h4 class="">User Favourites</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="single_counter">
-                                            <div class="col-sm-3 col-xs-12">
-                                                <div class="single_counter_item">
-                                                    <i class="icon icon-business-3"></i>
-                                                    <h2 class="statistic-counter">281</h2>
-                                                    <h4 class="">Posts Last 24 Hours</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="single_counter">
-                                            <div class="col-sm-3 col-xs-12">
-                                                <div class="single_counter_item">
-                                                    <i class="icon icon-people-32"></i>
-                                                    <h2 class="statistic-counter">618</h2>
-                                                    <h4 class="">Total Posts</h4>
-                                                </div>
+                                        <div class="col-md-12 animate-box">
+                                            <div class="feature-center">
+                                                <span class="counter js-counter" data-from="0" data-to="4523"
+                                                      data-speed="5000" data-refresh-interval="50">1</span>
+                                                <span class="counter-label">Hours Spent</span>
 
                                             </div>
-                                        </div>
-
-                                        <div class="single_counter">
-                                            <div class="col-sm-3 col-xs-12">
-                                                <div class="single_counter_item">
-                                                    <i class="icon icon-cup"></i>
-                                                    <h2 class="statistic-counter">178</h2>
-                                                    <h4 class="">Amazing Features</h4>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End off container -->
-            </section>   <!-- End of counter section -->
-
-            <!-- Pricing Section -->
-            <section id="pricing" class="pricing">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_pricing_area sections">
-                            <div class="head_title text-center">
-                                <h2>OUR PRICING</h2>
-                                <div class="subtitle">
-                                    A 30 days free trial for all. A brief story about how this process works, keep an eye till the end.
-                                </div>
-                                <div class="separator"></div>
-                            </div><!-- End off Head_title -->
-
-                            <div class="col-md-4 col-sm-6">
-                                <div class="single_pricing">
-                                    <div class="pricing_head">
-                                        <h3>STARTER</h3>
-                                        <div class="pricing_price">
-                                            <div class="p_r text-center">$19</div>
-                                            <div class="m_t text-center">per month</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="pricing_body">
-                                        <ul>
-                                            <li>Competition Analysis Methods</li>
-                                            <li>All Ranked URLs</li>
-                                            <li>International Support System</li>
-                                            <li>Social static Tracking</li>
-                                        </ul>
-                                        <a href="" class="btn btn-md">CHOOSE PLAN</a>
-                                    </div>
-                                </div>
-                            </div> <!-- End off col-md-4 -->
-                            <div class="col-md-4 col-sm-6">
-                                <div class="single_pricing pricing_business">
-                                    <div class="pricing_head ">
-                                        <h3>PREMIUM</h3>
-                                        <div class="pricing_price">
-                                            <div class="p_r text-center">$39</div>
-                                            <div class="m_t text-center">per month</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="pricing_body">
-                                        <ul>
-                                            <li>Competition Analysis Methods</li>
-                                            <li>All Ranked URLs</li>
-                                            <li>International Support System</li>
-                                            <li>Social static Tracking</li>
-                                        </ul>
-                                        <a href="" class="btn btn-md">CHOOSE PLAN</a>
-                                    </div>
-                                </div>
-                            </div> <!-- End off col-md-4 -->
-                            <div class="col-md-4 col-sm-6">
-                                <div class="single_pricing">
-                                    <div class="pricing_head">
-                                        <h3>BUSINESS</h3>
-                                        <div class="pricing_price">
-                                            <div class="p_r text-center">$99</div>
-                                            <div class="m_t text-center">per month</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="pricing_body">
-                                        <ul>
-                                            <li>Competition Analysis Methods</li>
-                                            <li>All Ranked URLs</li>
-                                            <li>International Support System</li>
-                                            <li>Social static Tracking</li>
-                                        </ul>
-                                        <a href="" class="btn btn-md">CHOOSE PLAN</a>
-                                    </div>
-                                </div>
-                            </div> <!-- End off col-md-4 -->
-                        </div>
-                    </div><!-- End off row -->
-                </div><!-- End off container -->
-            </section><!-- End off Pricing Section -->
-
-            <!-- Team Section -->
-            <section id="team" class="team">
-                <div class="main_team_area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="head_title textwhite text-center margin-top-80">
-                                    <h2>OUR TEAM</h2>
-                                    <div class="subtitle">
-                                        Meet the craziest team. Share your thoughts with them.
-                                    </div>
-                                    <div class="separator"></div>
-                                </div><!-- End off Head_title -->
-
-                                <div class="main_team">
-                                    <ul>
-                                        <li>
-                                            <div class="single_team_img">
-                                                <img src="{% static '/images/team1.jpg' %}" alt="" />
-                                            </div>
-                                            <div class="single_team_text">
-                                                <h4>Semf Ucuk</h4>
-                                                <p>Founder</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="single_team_img">
-                                                <img src="{% static '/images/team2.jpg' %}" alt="" />
-                                            </div>
-                                            <div class="single_team_text">
-                                                <h4>Kazi Erfan</h4>
-                                                <p>Engineering</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="single_team_img">
-                                                <img src="{% static '/images/team3.jpg' %}" alt="" />
-                                            </div>
-                                            <div class="single_team_text">
-                                                <h4>Jeng Koli</h4>
-                                                <p>Designer</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="single_team_img">
-                                                <img src="{% static '/images/team4.jpg' %}" alt="" />
-                                            </div>
-                                            <div class="single_team_text">
-                                                <h4>Pet Romak</h4>
-                                                <p>Marketing</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="single_team_img">
-                                                <img src="{% static '/images/test2.jpg' %}" alt="" />
-                                            </div>
-                                            <div class="single_team_text">
-                                                <h4>Chet Pok</h4>
-                                                <p>Web Developer</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div><!-- End of main team contant -->
-                        </div>
-                    </div><!-- End of container -->
-                </div>
-            </section><!-- End off Team Section -->
-
-            <!-- Client Logo Section -->
-            <section id="clogo" class="clogo">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_clogo sections text-center">
-                            <div class="head_title text-center">
-                                <h2>Great Integrations with Others</h2>
-                                <div class="subtitle">
-                                    Suspendisse sed eros mollis, tincidunt felis eget, interdum erat.
-                                    Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec.
-                                </div>
-                                <div class="separator"></div>
-                            </div><!-- End off Head_title -->
-
-                            <div class="col-sm-3 col-xs-6">
-                                <a href=""><img src="{% static '/images/clogo1.png' %}" alt="" /></a>
-                            </div>
-                            <div class="col-sm-3 col-xs-6">
-                                <a href=""><img src="{% static '/images/clogo2.png' %}" alt="" /></a>
-                            </div>
-                            <div class="col-sm-3 col-xs-6">
-                                <a href=""><img src="{% static '/images/clogo3.png' %}" alt="" /></a>
-                            </div>
-                            <div class="col-sm-3 col-xs-6">
-                                <a href=""><img src="{% static '/images/clogo4.png' %}" alt="" /></a>
-                            </div>
-                            <div class="col-sm-3 col-xs-6">
-                                <a href=""><img src="{% static '/images/clogo5.png' %}" alt="" /></a>
-                            </div>
-                            <div class="col-sm-3 col-xs-6">
-                                <a href=""><img src="{% static '/images/clogo6.png' %}" alt="" /></a>
-                            </div>
-                            <div class="col-sm-3 col-xs-6">
-                                <a href=""><img src="{% static '/images/clogo9.png' %}" alt="" /></a>
-                            </div>
-                            <div class="col-sm-3 col-xs-6">
-                                <a href=""><img src="{% static '/images/clogo8.png' %}" alt="" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="divider"></div>
-            </section><!-- End off clogo Section -->
-
-
-            <!-- Blog Section -->
-            <section id="blog" class="blog">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="main_blog sections">
-                            <div class="head_title text-center">
-                                <h2>OUR BLOG</h2>
-                                <div class="subtitle">
-                                    Suspendisse sed eros mollis, tincidunt felis eget, interdum eratullam sit amet odio.
-                                </div>
-                                <div class="separator"></div>
-                            </div><!-- End off Head_title -->
-
-                            <div class="main_blog_content">
-                                <div class="col-sm-6">
-                                    <div class="single_blog_area textwhite">
-                                        <div class="row">
-                                            <div class="col-sm-6 no-padding">
-                                                <div class="single_blog_img">
-                                                    <img src="{% static '/images/blog1.jpg' %}" alt="" />
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 no-padding">
-                                                <div class="single_blog_text s_b_left">
-                                                    <p>art/t-shirt</p>
-                                                    <h3>T-SHIRT DESIGN</h3>
-                                                    <div class="separator2"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
-                                                        standard dummy text ever since the 1500s, an unknown printer took a galley of type
-                                                        a scrambled it to make a type specimen book.</p>
-
-                                                    <a href="" class="read_more">Read More >></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <div class="single_blog_area textwhite">
-                                        <div class="row">
-                                            <div class="col-sm-6 no-padding">
-                                                <div class="single_blog_img">
-                                                    <img src="{% static '/images/blog2.jpg' %}" alt="" />
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 no-padding">
-                                                <div class="single_blog_text s_b_left">
-                                                    <p>art/t-shirt</p>
-                                                    <h3>T-SHIRT DESIGN</h3>
-                                                    <div class="separator2"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
-                                                        standard dummy text ever since the 1500s, an unknown printer took a galley of type
-                                                        a scrambled it to make a type specimen book.</p>
-
-                                                    <a href="" class="read_more">Read More >></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="single_blog_area textwhite">
-                                        <div class="row">
-
-                                            <div class="col-sm-6 col-sm-push-6 no-padding">
-                                                <div class="single_blog_img">
-                                                    <img src="{% static '/images/blog3.jpg' %}" alt="" />
-                                                </div>
-                                            </div>
-
-                                            <div class="col-sm-6 col-sm-pull-6 no-padding">
-                                                <div class="single_blog_text s_b_right">
-                                                    <p>art/t-shirt</p>
-                                                    <h3>T-SHIRT DESIGN</h3>
-                                                    <div class="separator2"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
-                                                        standard dummy text ever since the 1500s, an unknown printer took a galley of type
-                                                        a scrambled it to make a type specimen book.</p>
-
-                                                    <a href="" class="read_more">Read More >></a>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <div class="single_blog_area textwhite">
-                                        <div class="row">
-                                            <div class="col-sm-6 col-sm-push-6 no-padding">
-                                                <div class="single_blog_img">
-                                                    <img src="{% static '/images/blog4.jpg' %}" alt="" />
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-sm-pull-6 no-padding">
-                                                <div class="single_blog_text s_b_right">
-                                                    <p>art/t-shirt</p>
-                                                    <h3>T-SHIRT DESIGN</h3>
-                                                    <div class="separator2"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
-                                                        standard dummy text ever since the 1500s, an unknown printer took a galley of type
-                                                        a scrambled it to make a type specimen book.</p>
-
-                                                    <a href="" class="read_more">Read More >></a>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div><!-- End off container -->
-            </section><!-- End off Blog Section -->
-
-
-            <section id="contact" class="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="contact_contant sections">
-                                <div class="head_title text-center">
-                                    <h2>Зв’язатися з нами</h2>
-                                    <div class="subtitle">
-                                        Ми любимо наших клієнтів, тож, не вагаючись, звязуйтесь з нам у зручний для вас час
-                                    </div>
-                                    <div class="separator"></div>
-                                </div><!-- End off Head_title -->
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="main_contact_info">
-                                            <div class="row">
-                                                <div class="contact_info_content padding-top-90 padding-bottom-60 p_l_r">
-                                                    <div class="col-sm-12">
-                                                        <div class="single_contact_info">
-                                                            <div class="single_info_text">
-                                                                <h3>Наша Адреса</h3>
-                                                                <h4>м. Львів, вул. Хімічна 50</h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-12">
-                                                        <div class="single_contact_info">
-                                                            <div class="single_info_text">
-                                                                <h3>Телефон</h3>
-                                                                <h4>+ 880 168 109 1425</h4>
-                                                                <h4>+ 0216809142</h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-12">
-                                                        <div class="single_contact_info">
-                                                            <div class="single_info_text">
-                                                                <h3>Написати нам</h3>
-                                                                <h4>contactus@email.com</h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6">
-                                        <div class="single_contant_left padding-top-90 padding-bottom-90">
-                                            <form action="#" id="formid">
-                                                <div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
-
-                                                    <div class="row">
-                                                        <div class="col-sm-12">
-                                                            <div class="form-group">
-                                                                <input type="text" class="form-control" name="name" placeholder="Ім'я" required="">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div class="row">
-                                                        <div class="col-sm-12">
-                                                            <div class="form-group">
-                                                                <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="form-group">
-                                                                <input type="text" class="form-control" name="subject" placeholder="Тема" required="">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div class="form-group">
-                                                        <textarea class="form-control" name="message" rows="7" placeholder="Повідомлення"></textarea>
-                                                    </div>
-
-                                                    <div class="">
-                                                        <input type="submit" value="НАДІСЛАТИ" class="btn btn-lg">
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section><!-- End of contact section -->
-
-
-
-
-            <!--Footer section-->
-            <section class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="main_footer">
-                                <div class="row">
-                                    <div class="col-sm-6 col-xs-12">
-                                        <div class="flowus">
-                                            <a href=""><i class="fa fa-facebook"></i></a>
-                                            <a href=""><i class="fa fa-twitter"></i></a>
-                                            <a href=""><i class="fa fa-google-plus"></i></a>
-                                            <a href=""><i class="fa fa-instagram"></i></a>
-                                            <a href=""><i class="fa fa-youtube"></i></a>
-                                            <a href=""><i class="fa fa-dribbble"></i></a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 col-xs-12">
-                                        <div class="copyright_text">
-                                            <p class=" wow fadeInRight" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="http://night-sky-studios.com">Night Sky Studios</a>2019. All Rights Reserved</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1031,41 +250,217 @@
                         </div>
                     </div>
                 </div>
-            </section><!-- End off footer Section-->
+            </div>
+        </div>
+    </div>
+
+    <div id="fh5co-portfolio">
+        <div class="container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Finished Project</h2>
+                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.
+                        Odit ab aliquam dolor eius.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="project">
+                    <div class="col-md-8 col-md-push-5 animate-box" data-animate-effect="fadeInLeft">
+                        <img class="img-responsive" src="{% static 'images/work_1.png' %}" alt="work">
+                    </div>
+                    <div class="col-md-4 col-md-pull-8 animate-box" data-animate-effect="fadeInRight">
+                        <div class="mt">
+                            <h3>Real Project For Real Solutions</h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                                the Semantics, a large language ocean. </p>
+                            <ul class="list-nav">
+                                <li><i class="icon-check"></i>Far far away, behind the word</li>
+                                <li><i class="icon-check"></i>There live the blind texts</li>
+                                <li><i class="icon-check"></i>Separated they live in bookmarksgrove</li>
+                                <li><i class="icon-check"></i>Semantics a large language ocean</li>
+                                <li><i class="icon-check"></i>A small river named Duden</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="col-md-8 col-md-pull-1 animate-box" data-animate-effect="fadeInLeft">
+                        <img class="img-responsive" src="{% static 'images/work_1.png' %}" alt="work">
+                    </div>
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                        <div class="mt">
+                            <div>
+                                <h4><i class="icon-user"></i>Real Project For Real Solutions</h4>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia, there live the blind texts. </p>
+                            </div>
+                            <div>
+                                <h4><i class="icon-video2"></i>Real Project For Real Solutions</h4>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia, there live the blind texts. </p>
+                            </div>
+                            <div>
+                                <h4><i class="icon-shield"></i>Real Project For Real Solutions</h4>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia, there live the blind texts. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fh5co-testimonial">
+        <div class="container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Testimonial</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 animate-box">
+                    <div class="testimony">
+                        <blockquote>
+                            &ldquo;Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
+                            provident. Odit ab aliquam dolor eius&rdquo;
+                        </blockquote>
+                        <p class="author"><cite>John Doe</cite></p>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="testimony">
+                        <blockquote>
+                            &ldquo;Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
+                            provident. Odit ab aliquam dolor eius&rdquo;
+                        </blockquote>
+                        <p class="author"><cite>Rob Smith</cite></p>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="testimony">
+                        <blockquote>
+                            &ldquo;Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
+                            provident. Odit ab aliquam dolor eius&rdquo;
+                        </blockquote>
+                        <p class="author"><cite>Jane Doe</cite></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    <div id="fh5co-started">
+        <div class="container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Newsletter</h2>
+                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.
+                        Odit ab aliquam dolor eius.</p>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2">
+                    <form class="form-inline">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label for="email" class="sr-only">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <button type="submit" class="btn btn-default btn-block">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <footer id="fh5co-footer" role="contentinfo">
+        <div class="container">
+            <div class="row row-pb-md">
+                <div class="col-md-4 fh5co-widget">
+                    <h3>The Company</h3>
+                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta
+                        adipisci architecto culpa amet.</p>
+                    <p><a href="#">Learn More</a></p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+                    <ul class="fh5co-footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Meetups</a></li>
+                    </ul>
+                </div>
 
+                <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+                    <ul class="fh5co-footer-links">
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Handbook</a></li>
+                        <li><a href="#">Held Desk</a></li>
+                    </ul>
+                </div>
 
+                <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+                    <ul class="fh5co-footer-links">
+                        <li><a href="#">Find Designers</a></li>
+                        <li><a href="#">Find Developers</a></li>
+                        <li><a href="#">Teams</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+            </div>
 
-
-
-
-
+            <div class="row copyright">
+                <div class="col-md-12 text-center">
+                    <p>
+                        <small class="block">&copy; 2019. All Rights Reserved.</small>
+                        <small class="block">Designed by <a href="http://night-sky-studios.com" target="_blank">Night
+                            Sky Studios<a href="http://night-sky-studios.com" target="_blank"></a></a></small>
+                    </p>
+                    <p>
+                    <ul class="fh5co-social-icons">
+                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                        <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
 
         </div>
+    </footer>
+</div>
 
-        <!-- START SCROLL TO TOP  -->
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+</div>
 
-        <div class="scrollup">
-            <a href="#"><i class="fa fa-chevron-up"></i></a>
-        </div>
+<!-- jQuery -->
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<!-- jQuery Easing -->
+<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+<!-- Bootstrap -->
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<!-- Waypoints -->
+<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+<!-- countTo -->
+<script src="{% static 'js/jquery.countTo.js' %}"></script>
+<!-- Magnific Popup -->
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/magnific-popup-options.js' %}"></script>
+<!-- Main -->
+<script src="{% static 'js/main.js' %}"></script>
 
-        <script type="text/javascript" src="{% static '/js/vendor/jquery-1.11.2.min.js' %}"></script>
-        <script type="text/javascript" src="{% static '/js/vendor/bootstrap.min.js' %}"></script>
-
-        <script type="text/javascript" src="{% static '/js/jquery.magnific-popup.js' %}"></script>
-        <script type="text/javascript" src="{% static '/js/jquery.mixitup.min.js' %}"></script>
-        <script type="text/javascript" src="{% static '/js/jquery.easing.1.3.js' %}"></script>
-        <script type="text/javascript" src="{% static '/js/jquery.masonry.min.js' %}"></script>
-
-        <!--slick slide js -->
-        <script type="text/javascript"  src="{% static '/css/slick/slick.js' %}"></script>
-        <script type="text/javascript" src="{% static '/css/slick/slick.min.js' %}"></script>
-
-
-        <script type="text/javascript" src="{% static '/js/plugins.js' %}"></script>
-        <script type="text/javascript" src="{% static '/js/main.js' %}"></script>
-
-    </body>
+</body>
 </html>
+

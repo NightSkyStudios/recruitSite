@@ -19,12 +19,14 @@ from django.conf import settings
 from django.conf.urls.static import static
 from main import views
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='name')
+    path('home/', views.index, name='home'),
+    path('services/', views.services, name='services'),
+    path('work/', views.work, name='work'),
+    path('contact/', views.contact, name='contact'),
+    path('about/', views.about, name='about'),
 ]
-
 
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
