@@ -5,20 +5,31 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'index.html')
+
+    ctx = {'index': True}
+
+    return render(request, 'index.html', ctx)
 
 
 def about(request):
-    return render(request, 'about.html')
+    ctx = {'about': True}
+
+    return render(request, 'about.html', ctx)
 
 
 def contact(request):
-    return render(request, 'contact.html')
+    ctx = {'contact': True}
+
+    return render(request, 'contact.html', ctx)
 
 
 def services(request):
-    return render(request, 'services.html')
+    ctx = {'services': True}
+
+    return render(request, 'services.html', ctx)
 
 
 def work(request):
-    return render(request, 'work.html')
+    ctx = {'work': True}
+
+    return render(request, 'work.html', ctx)
