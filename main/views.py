@@ -1,11 +1,11 @@
 from django.shortcuts import render
+from main.models import Work
 
 
 # Create your views here.
 
 
 def index(request):
-
     ctx = {'index': True}
 
     return render(request, 'index.html', ctx)
@@ -30,6 +30,11 @@ def services(request):
 
 
 def work(request):
-    ctx = {'work': True}
+    works = Work.objects.all()
+
+    ctx = {
+        'work': True,
+        'works': works
+    }
 
     return render(request, 'work.html', ctx)
