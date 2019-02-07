@@ -633,12 +633,12 @@ form label {
 .fh5co-bg-section {
   position: relative;
   background: #005a8f;
-  background: -moz-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, #005a8f), color-stop(100%, #ff61b3));
-  background: -webkit-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: -o-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: -ms-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
+  background: -moz-linear-gradient(45deg, #005a8f 0%, #ff7117 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #005a8f), color-stop(100%, #ff7117));
+  background: -webkit-linear-gradient(45deg, #005a8f 0%, #ff7117 100%);
+  background: -o-linear-gradient(45deg, #005a8f 0%, #ff7117 100%);
+  background: -ms-linear-gradient(45deg, #005a8f 0%, #ff7117 100%);
+  background: linear-gradient(45deg, #005a8f 0%, #ff7117 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005a8f', endColorstr='#ff61b3', GradientType=1 );
 }
 .fh5co-bg-section .overlay {

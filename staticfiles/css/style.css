@@ -5,6 +5,15 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+font-family: "Ambassadore Type Shura";
+src: url("../fonts/Harabara.eot");
+src:
+url("../fonts/Harabara.woff") format("woff"),
+url("../fonts/Harabara.otf") format("opentype"),
+url("../fonts/Harabara.svg#filename") format("svg");
+}
 /* =======================================================
 *
 * 	Template Style 
@@ -15,7 +24,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #828282;
+  color: #001a29;
   background: #fff;
 }
 
@@ -313,12 +322,12 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   background: #ff5db1;
-  background: -moz-linear-gradient(-45deg, #ff5db1 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ff5db1), color-stop(100%, rgba(0, 87, 137, 0.7)));
-  background: -webkit-linear-gradient(-45deg, #ff5db1 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: -o-linear-gradient(-45deg, #ff5db1 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: -ms-linear-gradient(-45deg, #ff5db1 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: linear-gradient(135deg, #ff5db1 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: -moz-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ff7117), color-stop(100%, rgba(0, 87, 137, 0.7)));
+  background: -webkit-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: -o-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: -ms-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: linear-gradient(135deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#005789', GradientType=1 );
 }
 .fh5co-cover > .fh5co-container {
@@ -633,12 +642,12 @@ form label {
 .fh5co-bg-section {
   position: relative;
   background: #005a8f;
-  background: -moz-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, #005a8f), color-stop(100%, #ff61b3));
-  background: -webkit-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: -o-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: -ms-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
+  background: -moz-linear-gradient(45deg, #005a8f 0%, #ff7117 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #005a8f), color-stop(100%, #ff7117));
+  background: -webkit-linear-gradient(45deg, #005a8f 0%, #ff7117 100%);
+  background: -o-linear-gradient(45deg, #005a8f 0%, #ff7117 100%);
+  background: -ms-linear-gradient(45deg, #005a8f 0%, #ff7117 100%);
+  background: linear-gradient(45deg, #005a8f 0%, #ff7117 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005a8f', endColorstr='#ff61b3', GradientType=1 );
 }
 .fh5co-bg-section .overlay {
@@ -1064,13 +1073,13 @@ form label {
 }
 
 #fh5co-started {
-  background: #ff61b3;
-  background: -moz-linear-gradient(-45deg, #ff61b3 0%, #005a8f 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ff61b3), color-stop(100%, #005a8f));
-  background: -webkit-linear-gradient(-45deg, #ff61b3 0%, #005a8f 100%);
-  background: -o-linear-gradient(-45deg, #ff61b3 0%, #005a8f 100%);
-  background: -ms-linear-gradient(-45deg, #ff61b3 0%, #005a8f 100%);
-  background: linear-gradient(135deg, #ff61b3 0%, #005a8f 100%);
+  background: #ff7117;
+  background: -moz-linear-gradient(-45deg, #ff7117 0%, #005a8f 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ff7117), color-stop(100%, #005a8f));
+  background: -webkit-linear-gradient(-45deg, #ff7117 0%, #005a8f 100%);
+  background: -o-linear-gradient(-45deg, #ff7117 0%, #005a8f 100%);
+  background: -ms-linear-gradient(-45deg, #ff7117 0%, #005a8f 100%);
+  background: linear-gradient(135deg, #ff7117 0%, #005a8f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff61b3', endColorstr='#005a8f', GradientType=1 );
 }
 #fh5co-started .fh5co-heading h2 {
