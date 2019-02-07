@@ -443,10 +443,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-staff img {
     width: 100px;
     margin-bottom: 20px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
 }
 
 .fh5co-staff h3 {
