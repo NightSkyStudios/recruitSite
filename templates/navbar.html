@@ -6,19 +6,11 @@
             </div>
             <div class="col-xs-10 text-right menu-1">
                 <ul>
-                    <li {% if index %}class="active"{% endif %}><a href="/">Home</a></li>
-                    <li {% if about %}class="active"{% endif %}><a href="/about/">About</a></li>
-                    <li class="has-dropdown {% if services %}active{% endif %}">
-                        <a href="/services/">Services</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Web Design</a></li>
-                            <li><a href="#">eCommerce</a></li>
-                            <li><a href="#">Branding</a></li>
-                            <li><a href="#">API</a></li>
-                        </ul>
-                    </li>
-                    <li {% if work %}class="active"{% endif %}><a href="/work/">Work</a></li>
-                    <li {% if contact %}class="active"{% endif %}><a href="/contact/">Contact</a></li>
+                    <li {% if index %}class="active"{% endif %}><a href="/">Головна</a></li>
+                    <li {% if about %}class="active"{% endif %}><a href="/about/">Про компанію</a></li>
+                    <li {% if services %}active {% endif %}><a href="/services/">Послуги</a></li>
+                    <li {% if work %}class="active"{% endif %}><a href="/work/">Вакансії</a></li>
+                    <li {% if contact %}class="active"{% endif %}><a href="/contact/">Контакти</a></li>
                 </ul>
             </div>
         </div>
