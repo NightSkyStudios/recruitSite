@@ -438,10 +438,27 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-staff {
     text-align: center;
     margin-bottom: 30px;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .fh5co-staff {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .fh5co-staff {
+        width: 100%;
+    }
 }
 
 .fh5co-staff img {
-    width: 100%;
+    width: 60%;
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -459,6 +476,12 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 30px;
     font-weight: normal;
     display: block;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .fh5co-social-icons {
@@ -1320,21 +1343,22 @@ form label {
 #fh5co-footer .copyright .block {
     display: block;
 }
+
 #fh5co-footer .overlay {
-  z-index: 0;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: #ff5db1;
-  background: -moz-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ff7117), color-stop(100%, rgba(0, 87, 137, 0.7)));
-  background: -webkit-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: -o-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: -ms-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: linear-gradient(135deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#005789', GradientType=1 );
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ff5db1;
+    background: -moz-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #ff7117), color-stop(100%, rgba(0, 87, 137, 0.7)));
+    background: -webkit-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
+    background: -o-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
+    background: -ms-linear-gradient(-45deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
+    background: linear-gradient(135deg, #ff7117 0%, rgba(0, 87, 137, 0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5db1', endColorstr='#005789', GradientType=1);
 }
 
 #fh5co-offcanvas {
@@ -1799,21 +1823,30 @@ form label {
     opacity: 0;
 }
 
+
+.viber {
+    background-image: url(https://media.razem.work/assets/img/svg/chat-viber-icon.svg);
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 .nss-overlay {
-  z-index: 0;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: #ff5db1;
-  background: -moz-linear-gradient(-45deg, #00ecff 0%, rgb(0, 93, 255) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #00ecff), color-stop(100%, rgba(0, 93, 255, 0.7)));
-  background: -webkit-linear-gradient(-45deg, #00ecff 0%, rgba(0, 88, 242, 0.7) 100%);
-  background: -o-linear-gradient(-45deg, #00ecff 0%, rgba(0, 93, 255, 0.7) 100%);
-  background: -ms-linear-gradient(-45deg, #00ecff 0%, rgba(0, 93, 255, 0.7) 100%);
-  background: linear-gradient(135deg, #00ecff 0%, rgba(0, 93, 255, 0.7) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#005789', GradientType=1 );
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ff5db1;
+    background: -moz-linear-gradient(-45deg, #00ecff 0%, rgb(0, 93, 255) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #00ecff), color-stop(100%, rgba(0, 93, 255, 0.7)));
+    background: -webkit-linear-gradient(-45deg, #00ecff 0%, rgba(0, 88, 242, 0.7) 100%);
+    background: -o-linear-gradient(-45deg, #00ecff 0%, rgba(0, 93, 255, 0.7) 100%);
+    background: -ms-linear-gradient(-45deg, #00ecff 0%, rgba(0, 93, 255, 0.7) 100%);
+    background: linear-gradient(135deg, #00ecff 0%, rgba(0, 93, 255, 0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5db1', endColorstr='#005789', GradientType=1);
 }

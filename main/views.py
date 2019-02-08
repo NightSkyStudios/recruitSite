@@ -23,10 +23,6 @@ def contact(request):
     return render(request, 'contact.html', ctx)
 
 
-def services(request):
-    ctx = {'services': True}
-
-    return render(request, 'services.html', ctx)
 
 
 def work(request):

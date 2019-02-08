@@ -23,7 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^$', views.index, name='home'),
     #path('home/', views.index, name='home'),
-    path('services/', views.services, name='services'),
     path('work/', views.work, name='work'),
     path('contact/', views.contact, name='contact'),
     path('about/', views.about, name='about'),
