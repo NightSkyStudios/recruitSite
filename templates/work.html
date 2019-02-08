@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AVC. Вакансії</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free HTML5 Website Template by FreeHTML5.co"/>
+    <meta name="description" content="night-sky-studios.com"/>
     <meta name="keywords"
-          content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive"/>
-    <meta name="author" content="FreeHTML5.co"/>
+          content="construction, Робота в Польщі, Легальне працевлаштування в польщі, Робота, night sky studios"/>
+    <meta name="author" content="Night Sky Studios"/>
 
 
     <!-- Facebook and Twitter integration -->
@@ -51,7 +51,7 @@
 <div class="fh5co-loader"></div>
 
 <div id="page">
-{% include 'navbar.html' %}
+    {% include 'navbar.html' %}
 
     <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner"
             style="background-image:url({% static 'images/rabotnik.jpg' %});">
@@ -80,20 +80,20 @@
             </div>
             <div class="row">
                 {% for work in works %}
-                <div class="col-md-4 col-sm-4 text-center ">
+                    <div class="col-md-4 col-sm-4 text-center ">
 
-                    <div class="work-grid" style="background-image: url({%  static 'images/project-2.jpg' %});">
-                        <div class="desc">
+                        <div class="work-grid" style="background-image: url({% static 'images/project-2.jpg' %});">
+                            <div class="desc">
 
-                            <h3><a href="#">{{ work.name }}</a></h3>
-                            <span class="cat">{{ work.description }}</span>
-                            <p>
-                                <span class="love"><a href="#"><i class="icon-heart"></i></a></span>
-                            </p>
+                                <h3><a href="#">{{ work.name }}</a></h3>
+                                <span class="cat">{{ work.description }}</span>
+                                <p>
+                                    <span class="love"><a href="#"><i class="icon-heart"></i></a></span>
+                                </p>
 
+                            </div>
                         </div>
                     </div>
-                </div>
                 {% endfor %}
             </div>
         </div>

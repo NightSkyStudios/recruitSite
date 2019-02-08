@@ -1799,4 +1799,12 @@ form label {
     opacity: 0;
 }
 
+
+.viber{
+    background-image: url(https://media.razem.work/assets/img/svg/chat-viber-icon.svg);
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: center;
+}
 /*# sourceMappingURL=style.css.map */
