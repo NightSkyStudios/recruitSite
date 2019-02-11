@@ -80,16 +80,13 @@
             </div>
             <div class="row">
                 {% for work in works %}
-                    <div class="col-md-4 col-sm-4 text-center ">
+                    <div class="col-md-3 col-sm-3 text-center ">
 
                         <div class="work-grid" style="background-image: url({% static 'images/project-2.jpg' %});">
-                            <div class="desc">
+                            <div class="desc overlay">
 
-                                <h3><a href="#">{{ work.name }}</a></h3>
                                 <span class="cat">{{ work.description }}</span>
-                                <p>
-                                    <span class="love"><a href="#"><i class="icon-heart"></i></a></span>
-                                </p>
+                                <h3><a href="#">{{ work.name }}</a></h3>
 
                             </div>
                         </div>
