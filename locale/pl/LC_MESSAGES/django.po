@@ -1,0 +1,314 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-11 12:34+0200\n"
+"PO-Revision-Date: 2019-02-11 12:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: templates/about.html:8 templates/about.html:82 templates/navbar.html:11
+msgid "Про компанію"
+msgstr "O firmie"
+
+#: templates/about.html:65 templates/index.html:67
+msgid "Про нас"
+msgstr "O nas"
+
+#: templates/about.html:83
+msgid ""
+"\"AVC. Company\" пропонує тільки офіційне працевлаштування в країнах "
+"ЄвроСоюзу, з дотриманням як вітчизняного, так і Європейського законодавства. "
+"Наша компанія спеціалізується на працевлаштуванні у сфері будівництва. Це - "
+"житлове будівництво, промислове та сфера, що входить у групу, яка займається "
+"обслуговуванням потреб будівельних фірм. "
+msgstr ""
+"Avc. Spółka oferuje tylko oficjalne zatrudnienie w Unii Europejskiej, z "
+"przestrzeganiem zarówno ustawodawstwa krajowego, jak i Europejskiego. Nasza "
+"firma specjalizuje się w zatrudnieniu w dziedzinie budownictwa. Jest to "
+"budownictwo mieszkaniowe, przemysłowe i sfery, która jest częścią grupy, "
+"która jest zaangażowana w obsługę potrzeb firm budowlanych."
+
+#: templates/about.html:84
+msgid ""
+"Наша мета - допомогти польським компаніям знайти кваліфікованих працівників, "
+"а людям – гідну роботу. Офіційне працевлаштування – гарантія стабільності та "
+"впевненості у своїй праці та своєму майбутньому."
+msgstr ""
+"Naszym celem jest pomoc polskim firmom w znalezieniu wykwalifikowanych "
+"pracowników, a ludzie są godni pracy. Oficjalne zatrudnienie to gwarancja "
+"stabilności i pewności w pracy i jej przyszłości."
+
+#: templates/about.html:91
+msgid "Наші Партнери"
+msgstr "Nasi partnerzy"
+
+#: templates/about.html:92
+msgid "Нам довіряють партнери"
+msgstr "Zaufali nam partnerzy"
+
+#: templates/contact.html:8 templates/contact.html:65 templates/navbar.html:13
+msgid "Контакти"
+msgstr "Kontakty"
+
+#: templates/contact.html:77
+msgid "Будемо на зв`язку"
+msgstr "Będziemy w kontakcie"
+
+#: templates/contact.html:82
+msgid "Ім`я"
+msgstr "Imię"
+
+#: templates/contact.html:86
+msgid "Прізвище"
+msgstr "Nazwisko"
+
+#: templates/contact.html:101
+msgid "Тема повідомлення"
+msgstr "Temat wiadomości"
+
+#: templates/contact.html:109
+msgid "Текст повідомлення"
+msgstr "Tekst wiadomości"
+
+#: templates/contact.html:113
+msgid "Надіслати"
+msgstr "Prześlij"
+
+#: templates/contact.html:121
+msgid "Контактна Інформація"
+msgstr "Informacje kontaktowe"
+
+#: templates/contact.html:123
+msgid "79058 Львів <br> вул. Хімічна 50, Україна"
+msgstr "79058 Lwów ulica Chemichna 50, Ukraine"
+
+#: templates/footer.html:11
+msgid "Гарантії"
+msgstr "Gwarancje"
+
+#: templates/footer.html:12
+msgid "- Офіційне працевлаштування за договором"
+msgstr "- Oficjalne zatrudnienie w ramach umowy"
+
+#: templates/footer.html:14
+msgid "- Своєчасна оплата праці"
+msgstr "- Terminowa płatność siły roboczej"
+
+#: templates/footer.html:16
+msgid "- Запрошення від перевірених роботодавців"
+msgstr "- Zaproszenie od sprawdzonych pracodawców"
+
+#: templates/footer.html:18
+msgid "- Ліцензія Міністерства праці та соціальної політики (серія АБ №585074)"
+msgstr ""
+"- Licencja Ministerstwa Pracy i Polityki Społecznej (seria AB nr 585074)"
+
+#: templates/footer.html:20
+msgid "- Допомога в оформленні візи"
+msgstr "- Pomoc wizowa"
+
+#: templates/footer.html:22
+msgid "- На ринку працевлаштування працюємо більше 10 років"
+msgstr "- Pracujemy na rynku pracy od ponad 10 lat"
+
+#: templates/footer.html:25
+msgid "Більше"
+msgstr "Więcej"
+
+#: templates/index.html:8 templates/navbar.html:10
+msgid "Головна"
+msgstr "Główna"
+
+#: templates/index.html:65
+msgid "Ми на сторожі вашого перспективного майбутнього!"
+msgstr "Obserwujemy twoją perspektywę na przyszłość!"
+
+#: templates/index.html:66
+msgid "Ми завжди раді вашому візиту"
+msgstr "Zawsze cieszymy się, że cię widzimy"
+
+#: templates/index.html:86
+msgid "Надійно"
+msgstr "Niezawodny"
+
+#: templates/index.html:87
+msgid ""
+"Компанія AVC несе відповідальність за весь ланцюжок,- від подачі та "
+"оформлення документів у візових центрах - до легального працевлаштування та "
+"забезпечення соціального пакету"
+msgstr ""
+"Firma AVC jest odpowiedzialna za cały łańcuch-od składania i realizacji "
+"dokumentów w centrach wizowych-do legalnego zatrudnienia i świadczenia "
+"pakietu socjalnego"
+
+#: templates/index.html:97
+msgid "Якісно"
+msgstr "Jakościowo"
+
+#: templates/index.html:98
+msgid ""
+"Наші спеціалісти будуть супроводжувати Вас на всіх етапах працевлаштування "
+"та виїзду за кордон та нададуть безкоштовні послуги у проходженні медкомісіі "
+"та техніки безпеки. Також надається безкоштовне житло."
+msgstr ""
+"Nasi specjaliści będą Ci towarzyszyć na wszystkich etapach zatrudnienia i "
+"wyjazdu za granicę i zapewnić bezpłatne usługi w przekazywaniu sprzętu "
+"medycznego i bezpieczeństwa. Do dyspozycji jest także bezpłatny nocleg."
+
+#: templates/index.html:108
+msgid "Швидко"
+msgstr "Szybko"
+
+#: templates/index.html:109
+msgid ""
+"Строк від подачі документів до початку роботи складає - від 14 до 30 днів"
+msgstr "Termin od złożenia dokumentów do początku pracy-od 14 do 30 dni"
+
+#: templates/index.html:132
+msgid "Особливості"
+msgstr "Funkcje"
+
+#: templates/index.html:148
+msgid "Офіційність"
+msgstr "Oficjalne"
+
+#: templates/index.html:149
+msgid "Лише офіційне працевлаштування з дотриманням усіх вимог законодавства."
+msgstr ""
+"Tylko oficjalne zatrudnienie zgodnie ze wszystkimi wymogami ustawodawstwa."
+
+#: templates/index.html:158 templates/navbar.html:12 templates/work.html:8
+#: templates/work.html:65
+msgid "Вакансії"
+msgstr "Wakaty"
+
+#: templates/index.html:159
+msgid "Компанія \"AVC. Company\" володіє найактуальнішим списком вакансій."
+msgstr "Firmy \"AVC\". Firma posiada najbardziej palącą listę wakatów."
+
+#: templates/index.html:168
+msgid "Стабільність"
+msgstr "Stabilność"
+
+#: templates/index.html:169
+msgid "Ми працюємо в даній сфері вже більше 10-ти років."
+msgstr "Pracujemy w tej sferze od ponad 10 lat."
+
+#: templates/index.html:178
+msgid "Візова підтримка"
+msgstr "Wsparcie wizowe"
+
+#: templates/index.html:179
+msgid "Компанія \"AVC. Company\" надає повну візову підтримку."
+msgstr "Firma “AVC. Company” zapewnia pełne wsparcie wizowe."
+
+#: templates/index.html:195
+msgid "Робочі"
+msgstr "Pracownicy"
+
+#: templates/index.html:203
+msgid "Задоволені клієнти"
+msgstr "Zadowoleni klienci"
+
+#: templates/index.html:210
+msgid "Актуальні пропозиції"
+msgstr "Najlepsze oferty"
+
+#: templates/index.html:228
+msgid "Один з лідерів ринку працевлаштування, що працює в секторі будівництва"
+msgstr "Jeden z liderów na rynku pracy, pracujący w branży budowlanej"
+
+#: templates/index.html:238
+msgid "Етапи оформлення і працевлаштування"
+msgstr "Etapy rejestracji i zatrudnienia"
+
+#: templates/index.html:240
+msgid "Збір даних для оформлення запрошення"
+msgstr "Zbieranie danych do zaproszeń"
+
+#: templates/index.html:241
+msgid "Забезпечення кандидата запрошенням"
+msgstr "Dostarczenie kandydatowi zaproszenia"
+
+#: templates/index.html:242
+msgid "Консультація по проходженню митниці та доїзд до місця праці"
+msgstr "Konsultacje w zakresie przekazywania cła i przewozu do miejsca pracy"
+
+#: templates/index.html:244
+msgid ""
+"Офіційне оформлення кандидата та підписання умови про працю ( сюди входять "
+"медкомісія та проходження техніки безпеки)"
+msgstr ""
+"Oficjalna rejestracja kandydata i podpisanie warunku pracy (w tym rada "
+"lekarska i przejście bezpieczeństwa)"
+
+#: templates/index.html:246
+msgid "Безкоштовне забезпечення працівника спецодягом"
+msgstr "Bezpłatna odzież robocza"
+
+#: templates/index.html:247
+msgid "Безкоштовне забезпечення працівника житлом"
+msgstr "Darmowe mieszkanie dla pracowników"
+
+#: templates/index.html:259
+msgid "Оплата праці"
+msgstr "Płatność z pracy"
+
+#: templates/index.html:260
+msgid ""
+"Перший місяць праці - щотижня надаються аванси Оплата - згідно кваліфікації "
+"два рази в місяць"
+msgstr ""
+"Pierwszy miesiąc pracy - wydawane są cotygodniowe zaliczki Płatność - według "
+"kwalifikacji dwa razy w miesiącu"
+
+#: templates/index.html:263
+msgid "Робочий день"
+msgstr "Dzień roboczy"
+
+#: templates/index.html:264
+msgid ""
+"5ти денний робочий тиждень. По бажанню працівника надається можливість "
+"роботи в суботу"
+msgstr ""
+"5 tygodniowego tygodnia pracy. Na prośbę pracownika ma możliwość pracy w "
+"sobotę"
+
+#: templates/index.html:267
+msgid "Доставка до робочого місця"
+msgstr "Dostawa do miejsca pracy"
+
+#: templates/index.html:268
+msgid ""
+"Зазвичай робоче місце знаходиться неподалік від місця проживання. В інших "
+"випадках трасфер до місця праці забезпечує собі працівник"
+msgstr ""
+"Zwykle miejsce pracy znajduje się w pobliżu miejsca zamieszkania. W innych "
+"przypadkach robotnik do miejsca pracy zapewnia pracownik"
+
+#: templates/work.html:66
+msgid "Тут зібрані актуальні вакансії"
+msgstr "Tutaj znajdziesz odpowiednie oferty pracy"
+
+#: templates/work.html:78
+msgid "Активні вакансії"
+msgstr "Aktywne wakaty"
+
+#: templates/work.html:79
+msgid "Для вас ми підбираєм тільки найкращі та найактуальніші вакансії"
+msgstr ""
+"Dla Ciebie wybieramy tylko najlepsze i najbardziej aktualne oferty pracy"

@@ -1,4 +1,5 @@
 <nav class="fh5co-nav" role="navigation">
+{% load i18n %}
     <div class="container">
         <div class="row">
             <div class="col-xs-2">
@@ -6,10 +7,10 @@
             </div>
             <div class="col-xs-10 text-right menu-1">
                 <ul>
-                    <li {% if index %}class="active"{% endif %}><a href="/">Головна</a></li>
-                    <li {% if about %}class="active"{% endif %}><a href="/about/">Про компанію</a></li>
-                    <li {% if work %}class="active"{% endif %}><a href="/work/">Вакансії</a></li>
-                    <li {% if contact %}class="active"{% endif %}><a href="/contact/">Контакти</a></li>
+                    <li {% if index %}class="active"{% endif %}><a href="/">{% trans 'Головна' %}</a></li>
+                    <li {% if about %}class="active"{% endif %}><a href="/about/">{% trans 'Про компанію' %}</a></li>
+                    <li {% if work %}class="active"{% endif %}><a href="/work/">{% trans 'Вакансії' %}</a></li>
+                    <li {% if contact %}class="active"{% endif %}><a href="/contact/">{% trans 'Контакти' %}</a></li>
                 </ul>
             </div>
         </div>

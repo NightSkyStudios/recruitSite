@@ -18,15 +18,17 @@ from django.urls import path, re_path
 from django.conf import settings
 from django.conf.urls.static import static
 from main import views
+from django.conf.urls.i18n import i18n_patterns
 
-urlpatterns = [
+urlpatterns = i18n_patterns(
     path('admin/', admin.site.urls),
     re_path(r'^$', views.index, name='home'),
-    #path('home/', views.index, name='home'),
+    # path('home/', views.index, name='home'),
     path('work/', views.work, name='work'),
     path('contact/', views.contact, name='contact'),
     path('about/', views.about, name='about'),
-]
+    prefix_default_language=False
+)
 
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

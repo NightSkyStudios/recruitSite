@@ -1,10 +1,11 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AVC. Вакансії</title>
+    <title>AVC. {% trans 'Вакансії' %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="night-sky-studios.com"/>
     <meta name="keywords"
@@ -61,8 +62,8 @@
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div class="display-t">
                         <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                            <h1>Вакансії</h1>
-                            <h2>Тут зібрані актуальні вакансії</h2>
+                            <h1>{% trans 'Вакансії' %}</h1>
+                            <h2>{% trans 'Тут зібрані актуальні вакансії' %}</h2>
                         </div>
                     </div>
                 </div>
@@ -74,8 +75,8 @@
         <div class="container">
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Активні вакансії</h2>
-                    <p>Для вас ми підбираєм тільки найкращі та найактуальніші вакансії</p>
+                    <h2>{% trans 'Активні вакансії' %}</h2>
+                    <p>{% trans 'Для вас ми підбираєм тільки найкращі та найактуальніші вакансії' %}</p>
                 </div>
             </div>
             <div class="row">

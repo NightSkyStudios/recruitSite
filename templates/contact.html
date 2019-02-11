@@ -1,10 +1,11 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AVC. Контакти </title>
+    <title>AVC. {% trans 'Контакти' %} </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="night-sky-studios.com"/>
     <meta name="keywords"
@@ -61,7 +62,7 @@
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div class="display-t">
                         <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                            <h1>Контакти</h1>
+                            <h1>{% trans 'Контакти' %}</h1>
                         </div>
                     </div>
                 </div>
@@ -73,16 +74,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 animate-box">
-                    <h3>Будемо на зв'язку</h3>
+                    <h3>{% trans 'Будемо на зв`язку'%}</h3>
                     <form action="#">
                         <div class="row form-group">
                             <div class="col-md-6">
                                 <!-- <label for="fname">First Name</label> -->
-                                <input type="text" id="fname" class="form-control" placeholder="Ім'я">
+                                <input type="text" id="fname" class="form-control" placeholder="{% trans 'Ім`я' %}">
                             </div>
                             <div class="col-md-6">
                                 <!-- <label for="lname">Last Name</label> -->
-                                <input type="text" id="lname" class="form-control" placeholder="Прізвище">
+                                <input type="text" id="lname" class="form-control" placeholder="{% trans 'Прізвище' %}">
                             </div>
                         </div>
 
@@ -97,7 +98,7 @@
                             <div class="col-md-12">
                                 <!-- <label for="subject">Subject</label> -->
                                 <input type="text" id="subject" class="form-control"
-                                       placeholder="Тема повідомлення">
+                                       placeholder="{% trans 'Тема повідомлення' %}">
                             </div>
                         </div>
 
@@ -105,11 +106,11 @@
                             <div class="col-md-12">
                                 <!-- <label for="message">Message</label> -->
                                 <textarea name="message" id="message" cols="30" rows="10" class="form-control"
-                                          placeholder="Текст повідомлення"></textarea>
+                                          placeholder="{% trans 'Текст повідомлення' %}"></textarea>
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="Submit" value="Надіслати" class="btn btn-primary">
+                            <input type="Submit" value="{% trans 'Надіслати' %}" class="btn btn-primary">
                         </div>
 
                     </form>
@@ -117,9 +118,9 @@
                 <div class="col-md-5 col-md-push-1 animate-box">
 
                     <div class="fh5co-contact-info">
-                        <h3>Контактна Інформація</h3>
+                        <h3>{% trans 'Контактна Інформація' %}</h3>
                         <ul>
-                            <li class="address">79058 Львів <br> вул. Хімічна 50, Україна</li>
+                            <li class="address">{% trans '79058 Львів <br> вул. Хімічна 50, Україна' %}</li>
                             <li class="viber"><a href="viber://chat?number=+38‭0672821085‬">+ 38‭0 (67) 282 10 85‬</a></li>
                             <li class="phone"><a href="tel://+ 38‭0 (67) 282 10 85">+ 38‭0 (67) 282 10 85‬</a></li>
                             <li class="email"><a href="mailto:avc.lviv@gmail.com">avc.lviv@gmail.com</a></li>
