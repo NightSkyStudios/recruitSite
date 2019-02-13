@@ -29,7 +29,7 @@ def send_email(request):
     from_email = request.POST.get('email', '')
     if subject and message and from_email:
         try:
-            send_mail(subject, message, 'nightsktstudiosofficial@gmail.com', ['oles.hobor@gmail.com'])
+            send_mail(subject, message, 'oles.hobor@gmail.com', 'nightsktstudiosofficial@gmail.com')
         except BadHeaderError:
             return HttpResponse('Invalid header found.')
         return HttpResponseRedirect('/contact/')
