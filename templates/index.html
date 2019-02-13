@@ -1,10 +1,11 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AVC. Головна</title>
+    <title>AVC. {% trans 'Головна' %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="night-sky-studios.com"/>
     <meta name="keywords"
@@ -61,9 +62,9 @@
                 <div class="col-md-10 col-md-offset-1 text-center">
                     <div class="display-t">
                         <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                            <h1>Ми на сторожі вашого перспективного майбутнього!</h1>
-                            <h2>Ми завжди раді вашому візиту</h2>
-                            <p><a href="/about/" class="btn btn-warning">Про нас</a></p>
+                            <h1>{%  trans 'Ми на сторожі вашого перспективного майбутнього!' %}</h1>
+                            <h2>{%  trans 'Ми завжди раді вашому візиту' %}</h2>
+                            <p><a href="/about/" class="btn btn-default">{% trans 'Про нас' %}</a></p>
                         </div>
                     </div>
                 </div>
@@ -82,10 +83,8 @@
 									<i class="icon-eye"></i>
 								</span>
                                 <div class="desc">
-                                    <h3>Надійно.</h3>
-                                    <p>Компанія AVC несе відповідальність за весь ланцюжок,- від подачі та оформлення
-                                        документів у візових центрах - до легального працевлаштування та забезпечення
-                                        соціального пакету</p>
+                                    <h3>{%  trans 'Надійно' %}</h3>
+                                    <p>{%  trans 'Компанія AVC несе відповідальність за весь ланцюжок,- від подачі та оформлення документів у візових центрах - до легального працевлаштування та забезпечення соціального пакету' %}</p>
                                 </div>
                             </div>
                         </div>
@@ -95,10 +94,8 @@
 									<i class="icon-power"></i>
 								</span>
                                 <div class="desc">
-                                    <h3>Якісно</h3>
-                                    <p>Наші спеціалісти будуть супроводжувати Вас на всіх етапах працевлаштування та
-                                        виїзду за кордон та нададуть безкоштовні послуги у проходженні медкомісіі та
-                                        техніки безпеки. Також надається безкоштовне житло.</p>
+                                    <h3>{%  trans 'Якісно' %}</h3>
+                                    <p>{%  trans 'Наші спеціалісти будуть супроводжувати Вас на всіх етапах працевлаштування та виїзду за кордон та нададуть безкоштовні послуги у проходженні медкомісіі та техніки безпеки. Також надається безкоштовне житло.' %}</p>
                                 </div>
                             </div>
                         </div>
@@ -108,8 +105,8 @@
 									<i class="icon-laptop"></i>
 								</span>
                                 <div class="desc">
-                                    <h3>Швидко</h3>
-                                    <p>Строк від подачі документів до початку роботи складає - від 14 до 30 днів</p>
+                                    <h3>{%  trans 'Швидко' %}</h3>
+                                    <p>{%  trans 'Строк від подачі документів до початку роботи складає - від 14 до 30 днів' %}</p>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +129,7 @@
                     <div class="col-feature-9">
                         <div class="row">
                             <div class="col-md-12 fh5co-heading animate-box">
-                                <h2>Особливості</h2>
+                                <h2>{%  trans 'Особливості' %}</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -148,8 +145,8 @@
 										<i class="icon-check"></i>
 									</span>
                                     <div class="feature-copy">
-                                        <h3>Офіційність</h3>
-                                        <p>Лише офіційне працевлаштування з дотриманням усіх вимог законодавства.</p>
+                                        <h3>{%  trans 'Офіційність' %}</h3>
+                                        <p>{%  trans 'Лише офіційне працевлаштування з дотриманням усіх вимог законодавства.' %}</p>
                                     </div>
                                 </div>
 
@@ -158,8 +155,8 @@
 										<i class="icon-check"></i>
 									</span>
                                     <div class="feature-copy">
-                                        <h3>Вакансії </h3>
-                                        <p>Компанія "AVC. Company" володіє найактуальнішим списком вакансій.</p>
+                                        <h3>{%  trans 'Вакансії' %}</h3>
+                                        <p>{%  trans 'Компанія "AVC. Company" володіє найактуальнішим списком вакансій.' %}</p>
                                     </div>
                                 </div>
 
@@ -168,8 +165,8 @@
 										<i class="icon-check"></i>
 									</span>
                                     <div class="feature-copy">
-                                        <h3>Стабільність</h3>
-                                        <p>Ми працюємо в даній сфері вже більше 10-ти років.</p>
+                                        <h3>{%  trans 'Стабільність' %}</h3>
+                                        <p>{%  trans 'Ми працюємо в даній сфері вже більше 10-ти років.' %}</p>
                                     </div>
                                 </div>
 
@@ -178,8 +175,8 @@
 										<i class="icon-check"></i>
 									</span>
                                     <div class="feature-copy">
-                                        <h3>Візова підтримка </h3>
-                                        <p>Компанія "AVC. Company" надає повну візову підтримку.</p>
+                                        <h3>{%  trans 'Візова підтримка' %}</h3>
+                                        <p>{%  trans 'Компанія "AVC. Company" надає повну візову підтримку.' %}</p>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +192,7 @@
                                             <div class="feature-center">
                                                 <span class="counter js-counter" data-from="0" data-to="856"
                                                       data-speed="5000" data-refresh-interval="50">1</span>
-                                                <span class="counter-label">Робочі</span>
+                                                <span class="counter-label">{%  trans 'Робочі' %}</span>
 
                                             </div>
                                         </div>
@@ -203,14 +200,14 @@
                                             <div class="feature-center">
                                                 <span class="counter js-counter" data-from="0" data-to="1500"
                                                       data-speed="5000" data-refresh-interval="50">1</span>
-                                                <span class="counter-label">Задоволені клієнти</span>
+                                                <span class="counter-label">{%  trans 'Задоволені клієнти' %}</span>
                                             </div>
                                         </div>
                                         <div class="col-md-12 animate-box">
                                             <div class="feature-center">
                                                 <span class="counter js-counter" data-from="0" data-to="608"
                                                       data-speed="5000" data-refresh-interval="50">1</span>
-                                                <span class="counter-label">Актуальні пропозиції</span>
+                                                <span class="counter-label">{%  trans 'Актуальні пропозиції' %}</span>
                                             </div>
                                         </div>
                                     </div>
@@ -228,7 +225,7 @@
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
                     <h2>AVC.</h2>
-                    <p>Один з лідерів ринку працевлаштування, що працює в секторі будівництва</p>
+                    <p>{%  trans 'Один з лідерів ринку працевлаштування, що працює в секторі будівництва' %}</p>
                 </div>
             </div>
             <div class="row">
@@ -238,18 +235,16 @@
                     </div>
                     <div class="col-md-4 col-md-pull-8 animate-box" data-animate-effect="fadeInRight">
                         <div class="mt">
-                            <h3>Етапи оформлення і працевлаштування</h3>
+                            <h3>{%  trans 'Етапи оформлення і працевлаштування' %}</h3>
                             <ul class="list-nav">
-                                <li><i class="icon-check"></i>Збір даних для оформлення запрошення</li>
-                                <li><i class="icon-check"></i>Забезпечення кандидата запрошенням</li>
-                                <li><i class="icon-check"></i>Консультація по проходженню митниці та доїзд до місця
-                                    праці
+                                <li><i class="icon-check"></i>{%  trans 'Збір даних для оформлення запрошення' %}</li>
+                                <li><i class="icon-check"></i>{%  trans 'Забезпечення кандидата запрошенням' %}</li>
+                                <li><i class="icon-check"></i>{%  trans 'Консультація по проходженню митниці та доїзд до місця праці' %}
                                 </li>
-                                <li><i class="icon-check"></i>Офіційне оформлення кандидата та підписання умови про
-                                    працю ( сюди входять медкомісія та проходження техніки безпеки)
+                                <li><i class="icon-check"></i>{%  trans 'Офіційне оформлення кандидата та підписання умови про працю ( сюди входять медкомісія та проходження техніки безпеки)' %}
                                 </li>
-                                <li><i class="icon-check"></i>Безкоштовне забезпечення працівника спецодягом</li>
-                                <li><i class="icon-check"></i>Безкоштовне забезпечення працівника житлом</li>
+                                <li><i class="icon-check"></i>{%  trans 'Безкоштовне забезпечення працівника спецодягом' %}</li>
+                                <li><i class="icon-check"></i>{%  trans 'Безкоштовне забезпечення працівника житлом' %}</li>
                             </ul>
                         </div>
                     </div>
@@ -261,19 +256,16 @@
                     <div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
                         <div class="mt">
                             <div>
-                                <h4><i class="icon-user"></i>Оплата праці</h4>
-                                <p>Перший місяць праці - щотижня надаються аванси
-                                    Оплата - згідно кваліфікації два рази в місяць </p>
+                                <h4><i class="icon-user"></i>{%  trans 'Оплата праці' %}</h4>
+                                <p>{%  trans 'Перший місяць праці - щотижня надаються аванси Оплата - згідно кваліфікації два рази в місяць' %}</p>
                             </div>
                             <div>
-                                <h4><i class="icon-video2"></i>Робочий день</h4>
-                                <p>5ти денний робочий тиждень. По бажанню працівника надається можливість роботи в
-                                    суботу</p>
+                                <h4><i class="icon-video2"></i>{%  trans 'Робочий день' %}</h4>
+                                <p>{%  trans '5ти денний робочий тиждень. По бажанню працівника надається можливість роботи в суботу' %}</p>
                             </div>
                             <div>
-                                <h4><i class="icon-shield"></i>Доставка до робочого місця</h4>
-                                <p>Зазвичай робоче місце знаходиться неподалік від місця проживання. В інших випадках
-                                    трасфер до місця праці забезпечує собі працівник</p>
+                                <h4><i class="icon-shield"></i>{%  trans 'Доставка до робочого місця' %}</h4>
+                                <p>{%  trans 'Зазвичай робоче місце знаходиться неподалік від місця проживання. В інших випадках трасфер до місця праці забезпечує собі працівник' %}</p>
                             </div>
                         </div>
                     </div>

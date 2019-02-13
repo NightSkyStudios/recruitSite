@@ -3,6 +3,7 @@ from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect
 from main.models import Work
 
+from django.utils.translation import check_for_language
 
 # Create your views here.
 
@@ -54,3 +55,19 @@ def work(request):
     }
 
     return render(request, 'work.html', ctx)
+
+
+def set_language(request, language):
+    next = request.GET['next']
+    if not next:
+        next = request.META.get('HTTP_REFERER', None)
+    if not next:
+        next = '/'
+    response = HttpResponseRedirect(next)
+    if request.method == 'GET':
+        if language and check_for_language(language):
+            if hasattr(request, 'session'):
+                request.session['django_language'] = language
+            else:
+                response.set_cookie(settings.LANGUAGE_COOKIE_NAME, language)
+    return response

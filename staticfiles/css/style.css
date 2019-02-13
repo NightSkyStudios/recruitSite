@@ -6,10 +6,22 @@
     font-style: normal;
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.static-pos {
+    position: static;
+}
+
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -245,6 +257,45 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-nav ul li.active > a {
     color: #fff !important;
+}
+
+.fh5co-nav form{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+
+.fh5co-nav form input{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.fh5co-nav form input.active {
+    color: #fff !important;
+}
+
+.fh5co-nav form input:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.fh5co-nav form:before{
+    content: '';
+}
+
+.fh5co-nav form:after{
+    content: '';
+}
+
+.fh5co-nav ul li span{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #fh5co-header,
