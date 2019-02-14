@@ -24,7 +24,6 @@ urlpatterns = i18n_patterns(
     path('i18n/', include('django.conf.urls.i18n')),
     path('admin/', admin.site.urls),
     re_path(r'^$', views.index, name='home'),
-    # path('home/', views.index, name='home'),
     path('work/', views.work, name='work'),
     path('contact/', views.contact, name='contact'),
     path('about/', views.about, name='about'),

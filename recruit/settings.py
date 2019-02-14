@@ -115,6 +115,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+# EMAIl config
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 EMAIL_USE_SSL = True
