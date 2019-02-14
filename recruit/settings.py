@@ -121,7 +121,7 @@ EMAIL_USE_SSL = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 465
 EMAIL_HOST_USER = 'nightskystudiosofficial@gmail.com'
-EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST_PASSWORD = '7666779Alfa'
 
 
 # Static files (CSS, JavaScript, Images)

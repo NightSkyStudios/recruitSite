@@ -27,8 +27,8 @@ def send_email(request):
     subject = request.POST.get('subject', '')
     message = request.POST.get('message', '')
     from_email = request.POST.get('email', '')
-    messages = '{} {} {} , from {}'.format(fname, lname, message, from_email)
-    send_mail(subject, messages, 'nightskystudiosofficial@gmail.com', ['rosanujek@webmails.top'],
+    messages = 'Name: {}\n  Surname: {}\n{} \n\nFrom {}'.format(fname, lname, message, from_email)
+    send_mail(subject, messages, 'nightskystudiosofficial@gmail.com', ['thesever99@gmail.com'],
               fail_silently=False)
 
     return HttpResponseRedirect('/contact/')
@@ -53,18 +53,3 @@ def work(request):
 
     return render(request, 'work.html', ctx)
 
-
-def set_language(request, language):
-    next = request.GET['next']
-    if not next:
-        next = request.META.get('HTTP_REFERER', None)
-    if not next:
-        next = '/'
-    response = HttpResponseRedirect(next)
-    if request.method == 'GET':
-        if language and check_for_language(language):
-            if hasattr(request, 'session'):
-                request.session['django_language'] = language
-            else:
-                response.set_cookie(settings.LANGUAGE_COOKIE_NAME, language)
-    return response
