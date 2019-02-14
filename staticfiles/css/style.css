@@ -1709,9 +1709,9 @@ form label {
 }
 
 .btn-primary {
-    background: #50CB86;
+    background: #0041ff;
     color: #fff;
-    border: 2px solid #50CB86;
+    border: 2px solid #0041ff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
