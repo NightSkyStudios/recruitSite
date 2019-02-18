@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background: -ms-linear-gradient(-45deg, #007fff 0%, rgba(0, 87, 137, 0.7) 100%);
     background: linear-gradient(135deg, #007fff 0%, rgba(0, 87, 137, 0.7) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5db1', endColorstr='#005789', GradientType=1);
-    opacity: 0.7;
+    opacity: 0.3;
 }
 
 .fh5co-cover > .fh5co-container {
@@ -1210,12 +1210,19 @@ form label {
     background: -ms-linear-gradient(#ffcb00 0%, rgb(255, 254, 0) 100%);
     background: linear-gradient(#ffcb00 0%, rgb(255, 254, 0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5db1', endColorstr='#005789', GradientType=1);
-    opacity: 1;
-    border-radius: 15px;
+    opacity: 0.3;
 }
 
 .work-grid .overlay:hover {
-    opacity: 1;
+    background: #0041ff;
+    background: -moz-radial-gradient(#005789 0%, #007fff 20%, rgba(57, 77, 255, 0.7) 100%);
+    /* background: -webkit-gradient(color-stop(0%, #ff7117), color-stop(100%, rgba(0, 87, 137, 0.7))); */
+    background: -webkit-radial-gradient(#005789 0%, #007fff 20%, rgba(57, 77, 255, 0.7) 100%);
+    background: -o-radial-gradient(#005789 0%, #007fff 20%, rgba(57, 77, 255, 0.7) 100%);
+    background: -ms-radial-gradient(#005789 0%, #007fff 20%, rgba(57, 77, 255, 0.7) 100%);
+    background: radial-gradient(#005789 0%, #007fff 20%, rgba(57, 77, 255, 0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5db1', endColorstr='#005789', GradientType=1);
+    opacity: 0.2;
 }
 
 .fh5co-heading {
@@ -1286,7 +1293,7 @@ form label {
     background: -ms-linear-gradient(-45deg, #007fff 0%, #005a8f 100%);
     background: linear-gradient(135deg, #007fff 0%, #005a8f 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff61b3', endColorstr='#005a8f', GradientType=1);
-    opacity: 0.7;
+    opacity: 0.3;
 }
 
 #fh5co-started .fh5co-heading h2 {
@@ -1436,7 +1443,7 @@ form label {
     background: -ms-linear-gradient(-45deg, #007fff 0%, rgba(0, 87, 137, 0.7) 100%);
     background: linear-gradient(135deg, #007fff 0%, rgba(0, 87, 137, 0.7) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5db1', endColorstr='#005789', GradientType=1);
-    opacity: 0.7;
+    opacity: 0.3;
 }
 
 #fh5co-offcanvas {
@@ -1927,5 +1934,5 @@ form label {
     background: -ms-linear-gradient(-45deg, #00ecff 0%, rgba(0, 93, 255, 0.7) 100%);
     background: linear-gradient(135deg, #00ecff 0%, rgba(0, 93, 255, 0.7) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5db1', endColorstr='#005789', GradientType=1);
-    opacity: 0.7;
+    opacity: 0.3;
 }
