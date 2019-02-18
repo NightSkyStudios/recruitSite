@@ -7,17 +7,16 @@
 }
 
 .vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .static-pos {
     position: static;
 }
-
 
 /* =======================================================
 *
@@ -259,14 +258,14 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #fff !important;
 }
 
-.fh5co-nav form{
+.fh5co-nav form {
     padding: 0;
     margin: 0;
     list-style: none;
     display: inline;
 }
 
-.fh5co-nav form input{
+.fh5co-nav form input {
     font-size: 14px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.5);
@@ -279,20 +278,20 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #fff !important;
 }
 
-.fh5co-nav form input:hover{
+.fh5co-nav form input:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.fh5co-nav form:before{
+.fh5co-nav form:before {
     content: '';
 }
 
-.fh5co-nav form:after{
+.fh5co-nav form:after {
     content: '';
 }
 
-.fh5co-nav ul li span{
+.fh5co-nav ul li span {
     font-size: 14px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.5);
@@ -529,7 +528,6 @@ h1, h2, h3, h4, h5, h6, figure {
     font-weight: normal;
     display: block;
 }
-
 
 .fh5co-social-icons {
     margin: 0;
@@ -1897,7 +1895,6 @@ form label {
 .js .animate-box {
     opacity: 0;
 }
-
 
 .viber {
     background-image: url(https://media.razem.work/assets/img/svg/chat-viber-icon.svg);
