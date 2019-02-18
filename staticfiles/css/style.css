@@ -666,7 +666,7 @@ form label {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-    background: #50CB86 !important;
+    background: #007fff !important;
     -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
     -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
     box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -1109,6 +1109,7 @@ form label {
     float: left;
     display: table;
     margin-bottom: 40px;
+    border-radius: 15px;
 }
 
 .work-grid .desc {
@@ -1145,7 +1146,7 @@ form label {
 .work-grid .desc .cat {
     font-size: 12px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.91);
     letter-spacing: 2px;
     margin-bottom: 20px;
     display: block;
@@ -1199,13 +1200,13 @@ form label {
 */
 
 .work-grid .overlay {
-    background: #ff5db1;
-    background: -moz-radial-gradient(#005789 0%, rgba(0, 127, 255, 0.7) 100%);
+    background: #fffe00;
+    background: -moz-linear-gradient(#ffcb00 0%, rgb(255, 254, 0) 100%);
     /* background: -webkit-gradient(color-stop(0%, #ff7117), color-stop(100%, rgba(0, 87, 137, 0.7))); */
-    background: -webkit-radial-gradient(#005789 0%, rgba(0, 127, 255, 0.7) 100%);
-    background: -o-radial-gradient(#005789 0%, rgba(0, 127, 255, 0.7) 100%);
-    background: -ms-radial-gradient(#005789 0%, rgba(0, 127, 255, 0.7) 100%);
-    background: radial-gradient(#005789 0%, rgba(0, 127, 255, 0.7) 100%);
+    background: -webkit-linear-gradient(#ffcb00 0%, rgb(255, 254, 0) 100%);
+    background: -o-linear-gradient(#ffcb00 0%, rgb(255, 254, 0) 100%);
+    background: -ms-linear-gradient(#ffcb00 0%, rgb(255, 254, 0) 100%);
+    background: linear-gradient(#ffcb00 0%, rgb(255, 254, 0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5db1', endColorstr='#005789', GradientType=1);
     opacity: 0.3;
 }
@@ -1402,6 +1403,15 @@ form label {
     #fh5co-footer .fh5co-widget {
         text-align: left;
     }
+}
+
+.fh5co-widget a{
+    color: #8bc2ee;
+}
+
+.fh5co-widget a:hover{
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 #fh5co-footer .fh5co-widget h3 {
@@ -1713,19 +1723,19 @@ form label {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #64d194 !important;
-    border-color: #64d194 !important;
+    background: #007fff !important;
+    border-color: #007fff !important;
 }
 
 .btn-primary.btn-outline {
     background: transparent;
-    color: #50CB86;
-    border: 2px solid #50CB86;
+    color: #007fff;
+    border: 2px solid #007fff;
 }
 
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-    background: #50CB86;
-    color: #fff;
+    background: #007fff;
+    color: #007fff;
 }
 
 .btn-success {
@@ -1871,7 +1881,7 @@ form label {
 .form-control:active, .form-control:focus {
     outline: none;
     box-shadow: none;
-    border-color: #50CB86;
+    border-color: #007fff;
 }
 
 .row-pb-md {
